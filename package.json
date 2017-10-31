@@ -1,0 +1,32 @@
+{
+  "name": "josemod",
+  "version": "1.0.0",
+  "description": "modulo operaciones matematicas",
+  "main": "dist/src/josemod.js",
+  "scripts": {
+    "build": "babel src/josemod.js -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joseagudelob/josemod.git"
+  },
+  "keywords": [
+    "modulo",
+    "matematicas",
+    "javascript",
+    "jose",
+    "agudelo"
+  ],
+  "author": "Jose Agudelo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joseagudelob/josemod/issues"
+  },
+  "homepage": "https://github.com/joseagudelob/josemod#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
+}
